@@ -1,0 +1,25 @@
+# 🔹 Ejecutar todos los tests del proyecto
+pytest
+
+# 🔹 Ejecutar un test específico
+pytest tests/<nombre_del_test>.py
+# Ejemplo:
+pytest tests/test_serializador.py
+
+# 🔹 Ejecutar tests con salida detallada
+pytest -v
+
+# 🔹 Ejecutar tests y detenerse en el primer fallo
+pytest -x
+
+# 🔹 Ejecutar tests dentro de una carpeta específica
+pytest tests/
+
+# 🔹 Ejecutar tests con cobertura de código
+pytest --cov=src
+
+# 🔥 Notas Importantes:
+# - NO incluir los signos < > al escribir los valores reales.
+# - Ejecutar los comandos en CMD o PowerShell en Windows.
+# - Los IDs de los muebles deben existir en la base de datos para poder modificarlos o eliminarlos.
+# - Asegúrate de tener pytest instalado para ejecutar los tests.

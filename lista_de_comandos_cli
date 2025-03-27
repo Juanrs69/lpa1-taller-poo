@@ -1,0 +1,39 @@
+# 📋 Lista de Comandos CLI - Mueblería
+
+# 🔹 Para ejecutar cualquier comando, usa el siguiente formato:
+python cli.py [comando] [argumentos]
+
+# 🛠️ Comandos Disponibles:
+
+# 1️⃣ Agregar una mesa con material, tamaño y forma
+python cli.py agregar-mesa <material> <tamaño> <forma>
+# Ejemplo:
+python cli.py agregar-mesa Madera 120 Rectangular
+
+# 2️⃣ Listar todos los muebles almacenados
+python cli.py listar-muebles
+
+# 3️⃣ Buscar un mueble por su material
+python cli.py buscar-mueble <material>
+# Ejemplo:
+python cli.py buscar-mueble Madera
+
+# 4️⃣ Eliminar un mueble por su ID
+python cli.py eliminar-mueble <id>
+# Ejemplo:
+python cli.py eliminar-mueble 3
+
+# 5️⃣ Actualizar un mueble existente (se necesita el ID)
+python cli.py actualizar-mueble <id> <nuevo_material> <nuevo_tamaño> <nueva_forma>
+# Ejemplo:
+python cli.py actualizar-mueble 2 Metal 150 Circular
+
+# 6️⃣ Mostrar ayuda sobre los comandos disponibles
+python cli.py --help
+
+# 🔥 Notas Importantes:
+# - NO incluir los signos < > al escribir los valores reales.
+# - Ejecutar los comandos en CMD o PowerShell en Windows.
+# - Los IDs de los muebles deben existir en la base de datos para poder modificarlos o eliminarlos.
+
+# 🚀 ¡Listo para usar la CLI de la mueblería!

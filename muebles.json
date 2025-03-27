@@ -1,0 +1,33 @@
+[
+    {
+        "tipo": "Mesa",
+        "material": "Madera",
+        "precio": 120.0,
+        "forma": "Rectangular"
+    },
+    {
+        "tipo": "Mesa",
+        "material": "Madera",
+        "precio": 120.0,
+        "forma": "Rectangular"
+    },
+    {
+        "tipo": "Mesa",
+        "material": "Madera",
+        "precio": 120.0,
+        "forma": "Rectangular"
+    },
+    {
+        "tipo": "Mesa",
+        "material": "Madera",
+        "precio": 120.0,
+        "forma": "Rectangular"
+    },
+    {
+        "tipo": "Silla",
+        "material": "hierro",
+        "precio": 23.0,
+        "tipo_silla": "cuadrada",
+        "tiene_respaldo": false
+    }
+]
